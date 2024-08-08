@@ -120,9 +120,9 @@
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Achievements</button>
+          </li> -->
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -337,7 +337,236 @@
         <header>
           <h2 class="h2 article-title">Projects</h2>
         </header>
+        
+        <section class="projects">
 
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Systems</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Software Development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select> 
+
+              <div class="select-value" data-select-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div> 
+
+            </button> 
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Systems</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Software Development</button>
+              </li>
+
+            </ul>
+            
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/Ayan-Antik/Bangla-Grammatical-Error-Detection">
+                <h2 class="project-title">Grammatical Error Detection in Bangla</h2>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ged.webp" alt="Bangla-GED" loading="lazy">
+                </figure>
+
+                
+                <p class="project-category"><a href="https://github.com/Ayan-Antik/Bangla-Grammatical-Error-Detection">
+                  View on Github</a></p>
+                <p class="project-tech-stack">Pytorch, Huggingface, Sklearn</p>
+                <p class="project-category">Term Project for CSE 472: Machine Learning Sessional (CSE Department, BUET).
+                  This project focuses on detecting grammatical errors in Bangla sentences. To achieve this, we create a dataset by introducing 
+                  grammatical errors randomly into a collection of Bangla newspaper articles. We then fine-tune Bangla Language Models on 
+                  this synthesized dataset to identify grammatical errors in Bangla text. 
+                
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+                <a href="https://github.com/Ayan-Antik/CSE-472-ML-Sessional" target="_blank">
+                    <h2 class="project-title">Vectorized Convolutional Neural Network (CNN) from Scratch</h2>
+
+                    <figure class="project-img">
+                    <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/cnn.jpg" alt="CNN" loading="lazy">
+                    </figure>
+
+                    
+                    <p class="project-category"><a href="https://github.com/Ayan-Antik/CSE-472-ML-Sessional">
+                      View on Github</a></p>
+                    <p class="project-tech-stack">Numpy</p>
+                    <p class="project-category">A vectorized version of a Convolutional Neural Network using
+                       numpy without any deeplearning frameworks. 
+                       Training and testing of the developed model is done on the 
+                       <a style="display: inline;" href="https://www.kaggle.com/datasets/BengaliAI/numta">NumtaDB</a>: Bengali Handwritten Digits dataset. 
+                        </p>
+
+                </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="software development">
+                <a href="https://notabene-web.web.app/">
+                    <h2 class="project-title">Notabene: A browser based knowledge management tool </h2>
+
+                    <figure class="project-img">
+                    <div class="project-item-icon-box">
+                        <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img src="./assets/images/notabene.png" alt="forage" loading="lazy">
+                    </figure>
+
+                    <p class="project-category">
+                      <a href="https://notabene-web.web.app/">Website</a>
+                      <a href="https://www.youtube.com/watch?v=8-jehUd4qb4&feature=youtu.be">View on YouTube</a>
+                      <a href="https://github.com/Ayan-Antik/Notabene">View on Github</a>
+                    </p>
+                    <p class="project-tech-stack">Django REST, ReactJS, Chrome Extension Manifest V3, PostgreSQL</p>
+                    <p class="project-category">Notabene is a browser based knowledge management tool. It consists of 
+                      a browser extension to highlight texts and take notes from webpages and a website to manage them. 
+                      It lets the user explore a powerful document management system that allows them to highlight, annotate, and categorize webpages,
+                      collaborate with others, and share documents securely. Users can enjoy personalized note-taking, tagging, and document recommendations.
+                      This was the term Project for CSE 408: Software Development Sessional offered by the CSE Department of BUET.</p>
+
+                </a>
+            </li>
+              
+
+            <li class="project-item  active" data-filter-item data-category="systems">
+              <a href="https://github.com/Ayan-Antik/TCP-FR-Faster-Recovery-CSE-322-NS3-Project">
+                <h2 class="project-title">TCP-FR(Faster Recovery) and GFR (Gradual Faster Recovery)</h2>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tcp-gfr.png" loading="lazy">
+                </figure>
+
+                
+                <p class="project-category"><a href="https://github.com/Ayan-Antik/TCP-FR-Faster-Recovery-CSE-322-NS3-Project"><u>View on Github</u></a></p>
+                <p class="project-tech-stack">NS3</p>
+                <p class="project-category">Simulation and implementation of a congestion control algorithm on two different topologies using NS3 - a network simulator. 
+                  This was the term project for the CCSE 322: Computer Networks course offered by the CSE Department of BUET.</p>
+
+              </a>
+            </li>            
+            
+            <li class="project-item  active" data-filter-item data-category="software development">
+              <a href="https://github.com/Ayan-Antik/QuizUp">
+                <h2 class="project-title">QuizUp</h2>
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/quizup.png" alt="QuizUp" loading="lazy">
+                </figure>
+
+                
+                <p class="project-category"><a href="https://www.youtube.com/watch?v=H8KDXOHhHQc&feature=youtu.be"><u>View on YouTube</u></a></p>
+                <p class="project-tech-stack">Django, Bootstrap, Oracle</p>
+                <p class="project-category">
+                  QuizUp is a website where you can test yourself by playing quizzes and write articles on various topics. 
+                  It is a browser version of the famous mobile app QuizUp.
+                  We developed this as our term project for CSE 216: Database Management System Sessional course. 
+                </p>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="systems">
+                <a href="https://github.com/Ayan-Antik/Ray-Tracing-CSE-410">
+                  <h2 class="project-title">Ray Tracing</h2>
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/ray-tracing.jpg" alt="rtx-on" loading="lazy">
+                  </figure>
+  
+                  
+                  <p class="project-category"><a href="https://github.com/Ayan-Antik/Ray-Tracing-CSE-410"><u>View on Github</u></a></p>
+                  <p class="project-tech-stack">Computer Graphics, OpenGL</p>
+                  <p class="project-category">
+                    In this project, we implemented a ray tracing pipeline from scratch. 
+                    <i>Phong Lighting Model</i> and <i>Recursive Relfection</i> is used for proper lighting and ray tracing. This was the final task of CSE 410: Computer
+                    Graphics Sessional course.
+                  </p>
+                </a>
+              </li>
+
+              <li class="project-item  active" data-filter-item data-category="systems">
+                <a href="https://github.com/Ayan-Antik/C-Compiler">
+                  <h2 class="project-title">Compiler from scratch</h2>
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/compiler.jpeg" alt="compiler" loading="lazy">
+                  </figure>
+  
+                  
+                  <p class="project-category"><a href="https://github.com/Ayan-Antik/C-Compiler"><u>View on Github</u></a></p>
+                  <p class="project-tech-stack">Flex, Bison</p>
+                  <p class="project-category">In this sessional task, we create a compiler from scratch for a subset of the C language. 
+                    This assignments are for the CSE 310: Compiler Sessional </p>
+  
+                </a>
+              </li>
+            
+            
+          </ul>
+
+        </section>
         
       </article>
 
@@ -349,189 +578,13 @@
         - #BLOG
       -->
 
-      <article class="blog" data-page="blog">
+      <!-- <article class="achievements" data-page="achievements">
 
         <header>
-          <h2 class="h2 article-title">Blog</h2>
+          <h2 class="h2 article-title">Achievements</h2>
         </header>
 
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+      </article> -->
 
 
 
