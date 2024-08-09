@@ -120,9 +120,9 @@
             <button class="navbar-link" data-nav-link>Projects</button>
           </li>
 
-          <!-- <li class="navbar-item">
+          <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Achievements</button>
-          </li> -->
+          </li>
 
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link>Contact</button>
@@ -144,7 +144,7 @@
 
         <section class="about-text">
           <p>
-            <img src="assets/images/boy.svg" > Hi, This is Antik. A recent graduate from the 
+            <img src="assets/images/boy.svg" style="display: inline;"> Hi, This is Antik. A recent graduate from the 
             <a href="https://cse.buet.ac.bd" target="_blank"">Department of CSE, BUET</a>. I am currently working 
             as a Software Development Engineer in <a href="https://www.iqvia.com" target="_blank">IQVIA</a> under the 
             <a href="https://www.iqvia.com/solutions/technologies/performance-management-and-insights/orchestrated-analytics">
@@ -156,14 +156,14 @@
           </p>
 
           <p>
-            My undergraduate thesis project was under <a href="https://cse.buet.ac.bd/faculty_list/detail/rifat">Dr Rifat Shahriyar</a>. In 
+            <img src="assets/images/research.svg" style="display: inline;">My undergraduate thesis project was under <a href="https://cse.buet.ac.bd/faculty_list/detail/rifat">Dr Rifat Shahriyar</a>. In 
             the thesis, our goal was to find the presence of bias in Bangla Language Models. Based on our thesis work, we have published a paper 
             titled <a href="https://arxiv.org/abs/2406.17375">
             An Empirical Study on the Characteristics of Bias upon Context Length Variation for Bangla
             </a> which was accepted for poster presentation in the Findings of <a href="https://2024.aclweb.org/">ACL 2024</a>.
           </p>
           <p>
-            I am currently part of the <a href="https://www.iqvia.com/library/fact-sheets/kpi-library">KPI Library</a> Engineering 
+            <img src="assets/images/code.svg" style="display: inline;">  I am currently part of the <a href="https://www.iqvia.com/library/fact-sheets/kpi-library">KPI Library</a> Engineering 
             FrontEnd Team. My daily responsibilities include maintaining the existing codebase, developing new features, and working on 
             Proof of Concept (POC) projects for upcoming features.
           </p>
@@ -431,17 +431,18 @@
                         <ion-icon name="eye-outline"></ion-icon>
                     </div>
 
-                    <img src="./assets/images/cnn.jpg" alt="CNN" loading="lazy">
+                    <img src="./assets/images/cnn-long.jpg" alt="CNN" loading="lazy">
                     </figure>
 
                     
                     <p class="project-category"><a href="https://github.com/Ayan-Antik/CSE-472-ML-Sessional">
                       View on Github</a></p>
                     <p class="project-tech-stack">Numpy</p>
-                    <p class="project-category">A vectorized version of a Convolutional Neural Network using
+                    <p class="project-category">A vectorized implementation of a Convolutional Neural Network using
                        numpy without any deeplearning frameworks. 
                        Training and testing of the developed model is done on the 
                        <a style="display: inline;" href="https://www.kaggle.com/datasets/BengaliAI/numta">NumtaDB</a>: Bengali Handwritten Digits dataset. 
+                       This was the final assignment of the CSE 472: Machine Learning Sessional course offered by CSE Department, BUET.
                         </p>
 
                 </a>
@@ -505,7 +506,7 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/quizup.png" alt="QuizUp" loading="lazy">
+                  <img src="./assets/images/quizup2.png" alt="QuizUp" loading="lazy">
                 </figure>
 
                 
@@ -557,8 +558,31 @@
                   
                   <p class="project-category"><a href="https://github.com/Ayan-Antik/C-Compiler"><u>View on Github</u></a></p>
                   <p class="project-tech-stack">Flex, Bison</p>
-                  <p class="project-category">In this sessional task, we create a compiler from scratch for a subset of the C language. 
-                    This assignments are for the CSE 310: Compiler Sessional </p>
+                  <p class="project-category">In this sessional task, we created a compiler from scratch for a subset of the C language. 
+                    Besides the basics (conditions, loops and functions), I also implemented <i>recursive functions</i> as a bonus task.
+                    This assignments are for the CSE 310: Compiler Sessional. </p>
+  
+                </a>
+              </li>
+            
+              <li class="project-item  active" data-filter-item data-category="software-engineering">
+                <a href="https://github.com/Ayan-Antik/Online-Poker">
+                  <h2 class="project-title">Online Poker</h2>
+  
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+  
+                    <img src="./assets/images/poker.png" alt="compiler" loading="lazy">
+                  </figure>
+  
+                  
+                  <p class="project-category"><a href="https://github.com/Ayan-Antik/Online-Poker"><u>View on Github</u></a></p>
+                  <p class="project-tech-stack">Java, JavaFX</p>
+                  <p class="project-category">A LAN multiplayer poker game built with <i>JavaFX</i>. 
+                    It is a server-client based implementation of the famous 'Texas hold'em Poker'. 
+                    This project was done in the CSE 108: Object Oriented Programming Sessional course offered by CSE Department of BUET.</p>
   
                 </a>
               </li>
@@ -578,13 +602,106 @@
         - #BLOG
       -->
 
-      <!-- <article class="achievements" data-page="achievements">
+      <article class="achievements" data-page="achievements">
 
         <header>
           <h2 class="h2 article-title">Achievements</h2>
         </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <h3 class="h3 article-title">Competitions</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4">Bangla Complex Named Entity Recognition Challenge</h4>
+              <span>Participation</span>
+              <span>January 2023</span>
+              <p class="timeline-text"><a style="display: inline;" href='https://github.com/Ayan-Antik/Bangla-Named-Entity-Recognition'>[View in Github]</a></p>
+              <p class="timeline-text">
+                Participated in the Bangla Complex Named Entity Recognition Challenge, part of the
+                first ever NLP Hackathon in Bangladesh (organized by the EBLICT project and BDOSN). 
+                The event was supported by the ICT Division of Bangladesh, Bangladesh Computer Council (BCC), 
+                and Amazon Web Services (AWS).
+              </p>
+            </li>
+          </ol>
+        </section>
 
-      </article> -->
+        <section class="timeline">
+          <div class="title-wrapper">
+            <h3 class="h3 article-title">Awards & Scholarships</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4">IQVIA Gold Impact Award</h4>
+              <span><a href="https://www.iqvia.com/" target="_blank"></a>IQVIA</span>
+              <span>July 2024</span>
+              <span><a href="assets/files/Impact award.pdf" target="_blank">Award</a></span>
+              <p class="timeline-text">
+                Received the IQVIA Gold Impact Award for contributions to the team
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">RISE Research Grant</h4>
+              <span><a href="https://rise.buet.ac.bd/" target="_blank"">Research and Innovation Center for Science and Engineering</a></span>
+              <span>November 2022</span>
+              <p class="timeline-text">
+                Received research grant from <a href="https://rise.buet.ac.bd/" target="_blank" style="display: inline;">RISE</a> (Research and Innovation Center for Science and Engineering)
+                for our undergraduate thesis titled <b>Towards Bias Free Natural Language Processing for Bangla</b>. We also presented our thesis in a poster presentation
+                arranged by RISE.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">Dean's List Scholarship</h4>
+              <span>December 2018 - June 2023</span>
+              <p class="timeline-text">
+                Received Dean's list Scholarship for academic performance in 6 out of 8 undergraduate terms.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">University Merit Scholarship</h4>
+              <span>December 2018 - June 2023</span>
+              <p class="timeline-text">
+                Received University Merit Scholarship for academic performance in undergraduate studies.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4">Talentpool Scholarship</h4>
+              <p class="timeline-text">
+                Received Scholarship in National Education Board examinations - Primary School Certificate (PSC), Junior School Certificate(JSC) and
+                Higher Secondary School Certificate(HSC) examinations during School years.
+              </p>
+            </li>
+          </ol>
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+            <h3 class="h3 article-title">Leadership and Contributions</h3>
+          </div>
+          <ol class="timeline-list">
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Organizer</h4>
+              <p class="timeline-text">BUET CSE FEST 2022 </p>
+              <span>June 2022 - August 2022</span>
+              <p class="timeline-text"><a href="https://www.facebook.com/buetcsefest2022/" target="_blank">[Visit our Facebook Page]</a></p>
+              <p class="timeline-text">Coordinated inter-university competitions such as hackathon, programming contest;
+                Organized the Cricket Tournament and Treasure Hunt competitions for the Department
+                as well as cultural programs on behalf of the graduating class.</b>
+            </li>
+            
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Executive Member</h4>
+              <p class="timeline-text">Scintilla Science Club</p>
+              <span>Jan 2013 - March 2014</span>
+              <p class="timeline-text"><a href="https://www.facebook.com/scintillascienceclub/" target="_blank">[Visit our Facebook Page]</a></p>
+              <p class="timeline-text">Played a key role in the organization of Science Fair 2013 and 2014 in St Joseph Higher Secondary School.</b>
+            </li>
+          </ol>
+        </section>
+
+      </article>
 
 
 
@@ -602,7 +719,8 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0719725590566!2d90.40520567516455!3d23.78045127864991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c771552e47dd%3A0x902eeacfd9f3b59a!2sIQVIA%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1723055875284!5m2!1sen!2sbd" 
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.0719725590566!2d90.40520567516455!3d23.78045127864991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c771552e47dd%3A0x902eeacfd9f3b59a!2sIQVIA%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1723055875284!5m2!1sen!2sbd" 
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </section>
