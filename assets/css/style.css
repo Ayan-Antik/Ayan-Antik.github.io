@@ -302,6 +302,11 @@ main {
     display: inline;
     color: cornflowerblue;
   }
+
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
 }
 
 
@@ -310,11 +315,28 @@ main {
     color: cornflowerblue;
   }
 
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .inline {
+    display: inline;
+  }
+
 }
 
 .project-list {
   a {
     color: cornflowerblue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  .inline {
+    display: inline;
   }
 }
 
@@ -322,6 +344,11 @@ main {
   a {
     display: inline;
     color: cornflowerblue;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
   }
 }
 .topbar.active { max-height: 405px; }
@@ -591,7 +618,7 @@ main {
 }
 
 .publication {
-  color: skyblue !important;
+  color: cornflowerblue !important;
 }
 
 .timeline-item:not(:last-child)::before {
