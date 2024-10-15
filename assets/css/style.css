@@ -618,7 +618,7 @@ main {
 }
 
 .publication {
-  color: cornflowerblue !important;
+  color: var(--vegas-gold) !important;
 }
 
 .timeline-item:not(:last-child)::before {
