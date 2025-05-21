@@ -298,6 +298,8 @@ main {
 }
 
 .about-text, .news-text {
+  margin-bottom: 32px;
+
   a {
     display: inline;
     color: cornflowerblue;
@@ -307,8 +309,6 @@ main {
     text-decoration: underline;
     font-weight: bold;
   }
-
-  margin-bottom: 32px;
 }
 
 
