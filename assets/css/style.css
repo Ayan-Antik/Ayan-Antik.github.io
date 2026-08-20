@@ -307,7 +307,7 @@ main {
 
   a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 }
 
@@ -319,7 +319,7 @@ main {
 
   a:hover {
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
   .inline {
